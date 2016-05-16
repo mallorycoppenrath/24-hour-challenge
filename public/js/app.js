@@ -59,8 +59,7 @@ switchAccordion = function(e) {
 })
 // ()
 
-var imagesArray = ["/images/beer.jpg", "/images/bike.jpg", "/images/track.jpg", "/images/kombucha.jpg", "/images/chicago.jpg", "/images/face-mask.jpg", "/images/ice-cream.jpg", "/images/ny-four.jpg", "/images/paint-bird.jpg", "/images/plane.jpg", "/images/scrabble.jpg", "/images/staple.jpg", "/images/tree.jpg", "/images/trip.jpg", "/images/weirs-beach.jpg"];
-
+var imagesArray = ["http://66.media.tumblr.com/2472e96c479052464ea3a24e2ca34e12/tumblr_o5uz0jwxP11rt84fvo1_1280.jpg"] 
 function displayImage(){
   var rnd = Math.floor(Math.random() * (imagesArray.length));
   document.getElementById("image").innerHTML = "<center><img src='" + imagesArray[rnd] + "' alt='image' width='50%' height='50%'></img></center>";
