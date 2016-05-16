@@ -59,7 +59,7 @@ switchAccordion = function(e) {
 })
 // ()
 
-var imagesArray = ["images/beer.jpg", "images/bike.jpg", "images/track.jpg", "images/kombucha.jpg", "images/chicago.jpg", "images/face-mask.jpg", "images/ice-cream.jpg", "images/ny-four.jpg", "images/paint-bird.jpg", "images/plane.jpg", "images/scrabble.jpg", "images/staple.jpg", "images/tree.jpg", "images/trip.jpg", "images/weirs-beach.jpg"];
+var imagesArray = ["/images/beer.jpg", "/images/bike.jpg", "/images/track.jpg", "/images/kombucha.jpg", "/images/chicago.jpg", "/images/face-mask.jpg", "/images/ice-cream.jpg", "/images/ny-four.jpg", "/images/paint-bird.jpg", "/images/plane.jpg", "/images/scrabble.jpg", "/images/staple.jpg", "/images/tree.jpg", "/images/trip.jpg", "/images/weirs-beach.jpg"];
 
 function displayImage(){
   var rnd = Math.floor(Math.random() * (imagesArray.length));
