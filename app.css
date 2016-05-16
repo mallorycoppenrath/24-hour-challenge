@@ -76,13 +76,13 @@ body {
 }
 .accordionTitle:hover,
 .accordion__Heading:hover {
-  background-color: #c1f0f0
+  background-color: #006666
 ;
 }
 
 .accordionTitleActive,
 .accordionTitle.is-expanded {
-  background-color: #ffffb3
+  background-color: #006666
 ;
 }
 .accordionTitleActive:before,
@@ -107,7 +107,30 @@ body {
   }
 }
 
+a {
+  text-decoration: none;
+}
+
+#submit_button {
+  background-color: #ffffb3;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  color:#000000;
+  font-family: 'Lato'
+  font-size:16px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+
+#other {
+  text-align: left;
+}
+
 #image {
+  height: 600px;
   text-align: center;
 }
 .accordionItem.is-collapsed {
