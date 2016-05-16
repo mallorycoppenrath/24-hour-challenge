@@ -39,7 +39,7 @@ body {
 
 .accordion {
   position: relative;
-  background-color: #c1f0f0
+  background-color: #20B2AA
 ;
 }
 
@@ -60,7 +60,7 @@ body {
   color: #000000;
   -webkit-transition: background-color 0.5s ease-in-out;
   transition: background-color 0.5s ease-in-out;
-  border-bottom: 1px solid  #c1f0f0
+  border-bottom: 1px solid  #20B2AA
 ;
 }
 .accordionTitle:before,
