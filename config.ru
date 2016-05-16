@@ -12,4 +12,4 @@ run lambda { |env|
     File.open('public/index.html', File::RDONLY)
   ]
 }
-config.assets.compile = true
+compass compile -e production --force
